@@ -11,7 +11,6 @@ public class MainController {
     public ModelAndView showHomePage() {
         ModelAndView m = new ModelAndView("index");
         m.addObject("name", "Hello");
-        System.out.println("test");
         return m;
     }
 }
